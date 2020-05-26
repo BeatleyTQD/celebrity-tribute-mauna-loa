@@ -34,3 +34,31 @@ footer {
     justify-content: center;
     background-color: chartreuse;
 }
+
+.careerTop {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.careerIntro {
+    align-self: center;
+}
+
+.albumsFlex {
+    display:flex;
+}
+
+.album {
+    max-width: 30%;
+    height: auto;
+}
+
+.careerFlex {  
+    display: flex;
+}
+
+.careerBottom {
+    display:flex;
+    justify-content: center;
+}
