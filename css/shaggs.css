@@ -142,6 +142,7 @@ main h2{
 #news-item p{
     line-height: 1.5em;
 }
+
 footer {
     display: flex;
     justify-content: center;
