@@ -26,7 +26,6 @@ h1 {
     
 }
 
-<<<<<<< HEAD
 .shagg-background {
     background-color: gray;
 }
@@ -81,10 +80,8 @@ aside {
     
 }
 
-a:hover {
-=======
+
 .navbar a:hover {
->>>>>>> master
     color: grey;
 }
 
