@@ -10,18 +10,26 @@ h1 {
     text-align: center;
     font-size: 5em;
     margin: -1.4em 0em 0em 0em;
+    overflow: hidden;
+}
+
+#bimage {
+    background-image: url(../images/top-pic.jpg);
+    padding: 1em 1em 4em 1em;
+    margin: -1em -1em;
 }
 
 .navbar{
     display: flex;
     justify-content: space-around;
     font-size: 2em;
-    margin: 2em 0em 0em 0em;
-    background-color: yellow;
+    margin: 0em -.5em 0em -.25em;
+    background-color: rgb(42, 43, 44);
+    padding: .2em 0em .4em 0em;
     
 }
 .navbar a {
-    color: black;
+    color: cornsilk;
     text-decoration: none;
     
 }
@@ -65,7 +73,7 @@ h1 {
     display: flex;
     width: 100%;
     max-height: 300x;
-    background-color: yellow;
+    background-color: rgb(232, 235, 83);;
     width: 300px;
     height: 231px;
     margin-left: auto;
@@ -82,7 +90,8 @@ aside {
 
 
 .navbar a:hover {
-    color: grey;
+    color: rgb(232, 235, 83);
+    opacity: 80%;
 }
 
 #news-container {
@@ -97,13 +106,21 @@ aside {
 #newsfeed {
     flex: 4;
     background-color: rgb(232, 235, 83);
-    margin: -2.5em -1em -1em -1em;
+    margin: -2.9em -1em 0em -1em;
+    
 }
 
-main h2{
+#ntitle {
     text-align: center;
-    font-size: 3em;
-    padding-top: 2em;
+    font-size: 3.5em;
+    width: 5em;
+    padding-top: .5em;
+    height: 1.6em;
+    position: relative;
+    top: 1em;
+    left: 14.6em;
+    background-color: cornsilk;
+    filter:drop-shadow(10px 7px 4px #2020204f)
 }
 
 #news-item {
@@ -141,12 +158,6 @@ main h2{
     line-height: 1.5em;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    background-color: chartreuse;
-}
-
 .centeredH2 {
     text-align: center;
     text-decoration: underline;
@@ -178,3 +189,45 @@ footer {
 .personal-title{
     display: flex;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(42, 43, 44);
+    flex-direction: space-between;
+    margin: 0em -1em -5em -1em;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 12px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border: solid;
+    border-color: cornsilk;
+    border-width: 1px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin: 1em 12em 1em 1.5em;
+  }
+
+  footer h4 {
+      color: cornsilk;
+      margin: 1.7em 1em 0em 3em;
+      font-size: 1.2em;
+  }
+
+  footer #copy {
+      color: rgba(182, 182, 182, 0.767);
+      font-size: .9em;
+      margin: 3em -28em 0em 20em;
+  }
