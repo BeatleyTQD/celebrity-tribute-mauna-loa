@@ -5,25 +5,30 @@ html {
 #logo {
     height: 10em;
     width: 10em;
-    padding-top: 2em;
+    padding-top: 2.5em;
 }
 #sh-title {
+    font-family: 'Spicy Rice', cursive;
+    font-weight: lighter;
+    text-transform: uppercase;
     text-align: center;
     color: #faef5b;
     font-size: 5em;
-    margin: -1.6em 0em 0em -0.7em;
+    margin: -1.6em 0em 1em -0.7em;
     overflow: hidden;
     padding: .2em 0em .2em 0em;
 }
 
-#wrapper {
+#wrapper1 {
     width: 100%;
+    height: auto;
+    margin-bottom: -.5em;
 }
 .navbar{
     display: flex;
     justify-content: space-around;
     font-size: 2em;
-    margin: 0em -.5em 0em -.25em;
+    margin: 0em -.23em 0em -.25em;
     padding: .2em 0em .4em 0em;
     background-color: #faef5b;
     
@@ -97,7 +102,6 @@ aside {
 #news-container {
     display: flex;
     flex-direction: column;
-    width: 100%;
     align-content: center;
     justify-content: center;
 }
@@ -105,19 +109,17 @@ aside {
 #newsfeed {
     flex: 4;
     background-color: #5b7c73;
-    margin: -2.9em -1em 0em -1em;
+    margin: -2.9em 0em 0em -1em;
     
 }
 
 #ntitle {
     text-align: center;
-    font-size: 3.5em;
-    height: 1.6em;
-    width: 100%;
-    margin-top: 0em;
-    padding-right: .3em;
-    padding-top: .2em;
+    font-size: 3em;
+    margin-top: .98em;
     background-color: cornsilk;
+    width: auto;
+    padding: 1em .5em 1em .5em;
 }
 
 #news-item {
@@ -127,6 +129,7 @@ aside {
     margin: 4em 0em;
     width: auto;
     height: auto;
+
 }
 
 #news-item img {
@@ -147,6 +150,7 @@ aside {
     padding: 1em .5em 1em .5em;
     filter:drop-shadow(10px 7px 4px #2020204f);
     overflow: hidden;
+    font-size: .9vw;
 }
 
 #news-item #p2 {
@@ -160,6 +164,7 @@ aside {
     padding: 1em .5em 1em .5em;
     filter:drop-shadow(10px 7px 4px #2020204f);
     overflow: hidden;
+    font-size: .9vw;
 }
 
 #news-item #p3 {
@@ -173,6 +178,7 @@ aside {
     padding: 1em .5em 1em .5em;
     filter:drop-shadow(10px 7px 4px #2020204f);
     overflow: hidden;
+    font-size: .9vw;
 }
 #news-item #p4 {
     background-color: cornsilk;
@@ -185,6 +191,7 @@ aside {
     padding: 1em .5em 1em .5em;
     filter:drop-shadow(10px 7px 4px #2020204f);
     overflow: hidden;
+    font-size: .9vw;
 }
 #news-item p{
     line-height: 1.5em;
@@ -193,12 +200,13 @@ aside {
 /* CSS for career page */
 .career {
     background-color: #5B7C73;
-    margin: -2.5em 0em -1em 0em;
-
+    margin: -2.5em 0em 0em 0em;
 }
 .centeredH2 {
     text-align: center;
-    filter:drop-shadow(1px 1px 10px cornsilk)
+    font-size: 3em;
+    padding: 1.25em;
+    filter:drop-shadow(1px 1px 10px cornsilk);
 }
 
 #intro {
@@ -233,11 +241,17 @@ aside {
     align-content: center;
 }
 
+.albumsFlex a {
+    display: inline-block;
+    width: 60%;
+    height: auto; 
+    padding: .5em 1em .5em 1em;
+} 
+
 .album {
-    width: 30%;
-    height: auto;
-    padding: 1em .5em 3em .5em;
-    filter:drop-shadow(10px 7px 4px #2020204f)
+    width: 100%;
+    height: auto; 
+    filter:drop-shadow(10px 7px 4px #2020204f);
 }
 
 .careerFlex {  
@@ -246,8 +260,71 @@ aside {
 
 .careerBottom {
     display:flex;
-    /* background-color: cornsilk; */
     margin: 10px;
+}
+
+#personal {
+    background-color: #5B7C73;
+}
+
+.personal-life-header {
+    display: flex;
+    justify-content: center;
+    font-size: 5em;
+    color: #655741
+}
+
+.family-header {
+    display: flex;
+    justify-content: center;
+    font-size: 5em;
+    color: #655741
+}
+
+.member-photos {
+    display: flex;
+    justify-content: center;
+}
+
+.original-member-photo {
+    display: flex;
+    justify-content: center;
+    transform: rotate(-7deg);
+    border:5px solid #655741
+}
+
+.current-member-photo {
+    display: flex;
+    transform: rotate(7deg);
+    height: 250px;
+    border:5px solid #655741;
+}
+
+.members-list {
+    display: flex;
+    justify-content: left;
+    padding: 30px 20px;
+}
+
+.single-member-info {
+    padding: 20px;
+}
+
+.family-info {
+    display: flex;
+    justify-content: center;
+    padding: 50px 325px;
+}
+
+.family-photo {
+    display: flex;
+    border: 5px solid #655741;
+    transform: rotate(-7deg);
+}
+
+.parent-info {
+    display: flex;
+    padding: 20px;
 }
 
 .personal-title{
@@ -259,7 +336,7 @@ footer {
     justify-content: center;
     background-color: rgb(42, 43, 44);
     flex-direction: space-between;
-    padding-right: 2em;
+    padding-right: 1em;
     margin-left: -1em;
     width: 100%;
     height: 1%;
@@ -446,6 +523,8 @@ footer {
 .banner-top {
     background-image: url(Shaggs-banner-pic.png);
     width:100%;
+    margin: -.5em 0em 0em -.5em;
+    padding-right: .35em;
 }
 
 /* end of Extras specific css */
