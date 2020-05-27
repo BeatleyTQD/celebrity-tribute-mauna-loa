@@ -5,9 +5,11 @@ html {
 #logo {
     height: 10em;
     width: 10em;
+    padding-top: 2em;
 }
 h1 {
     text-align: center;
+    color: #faef5b;
     font-size: 5em;
     margin: -1.4em 0em 0em 0em;
 }
@@ -17,7 +19,7 @@ h1 {
     justify-content: space-around;
     font-size: 2em;
     margin: 2em 0em 0em 0em;
-    background-color: yellow;
+    background-color: #faef5b;
     
 }
 .navbar a {
@@ -217,7 +219,7 @@ footer {
     height: auto;
     position: absolute;
     top: 12em;
-    left: 24em;
+    left: 26em;
     z-index: 1;
     padding: 1em .5em 1em .5em;
     filter:drop-shadow(10px 7px 4px #2020204f)
@@ -232,16 +234,41 @@ footer {
     font-size: 2em;
 }
 
+.NYT {
+    text-align: center;
+    align-self: center;
+    width: 100%;
+}
+
 .resources {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding-bottom: 2em;
     border-bottom: 2px solid #655741;
     filter:drop-shadow(10px 7px 4px #2020204f);
 }
 
+.shaggPage {
+    font-size: small;
+    text-align: center;
+    background-color: rgba(255, 248, 220, 0.90);
+    width: 100%;
+    height: auto;
+    padding: .5em .5em .7em .5em;
+    filter:drop-shadow(10px 7px 4px #2020204f)
+}
+
+.shaggWiki {
+    font-size: small;
+    text-align: center;
+    background-color: rgba(255, 248, 220, 0.90);
+    width: 100%;
+    height: auto;
+    padding: .5em .5em .7em .5em;
+    filter:drop-shadow(10px 7px 4px #2020204f)
+}
 .houseparty {
     display: flex;
     align-items: right;
@@ -278,7 +305,7 @@ footer {
 
 .dont-push {
     display: flex;
-    top: -.2em;
+    top: .5em;
     position: absolute;
     padding-left: 35em;
 }
@@ -289,7 +316,7 @@ footer {
 }
 
 .dont-push p {
-    text-align: right;
+    text-align: center;
     font-size: small;
     background-color: rgba(255, 248, 220, 0.90);
     width: 15%;
@@ -298,6 +325,16 @@ footer {
     top: 6em;
     left: 35em;
     z-index: 1;
-    padding: .2em .5em .2em 0em;
+    padding: .2em .5em .2em .2em;
     filter:drop-shadow(10px 7px 4px #2020204f)
 }
+
+.store-text {
+    text-align: center;
+}
+
+.banner-top {
+    background-image: url(Shaggs-banner-pic.png);
+}
+
+/* end of Extras specific css */
