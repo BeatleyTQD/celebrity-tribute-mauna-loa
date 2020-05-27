@@ -35,22 +35,23 @@ footer {
     background-color: chartreuse;
 }
 
-.careerTop {
-    display: flex;
-    flex-direction: column;
-
+h2 {
+    text-align: center;
+    text-decoration: underline;
 }
 
-.careerIntro {
-    align-self: center;
+p {
+    text-align: center;
 }
 
 .albumsFlex {
     display:flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .album {
-    max-width: 30%;
+    width: 30%;
     height: auto;
 }
 
