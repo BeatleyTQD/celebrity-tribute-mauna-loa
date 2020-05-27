@@ -145,6 +145,34 @@ footer {
     background-color: chartreuse;
 }
 
+.centeredH2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.centeredP {
+    text-align: center;
+}
+
+.albumsFlex {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.album {
+    width: 30%;
+    height: auto;
+}
+
+.careerFlex {  
+    display: flex;
+}
+
+.careerBottom {
+    display:flex;
+    justify-content: center;
+}
 .personal-title{
     dislay: flex;
 }
