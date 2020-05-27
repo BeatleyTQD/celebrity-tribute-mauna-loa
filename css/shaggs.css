@@ -92,7 +92,7 @@ a:hover {
     justify-content: center;
 }
 
-main {
+#newsfeed {
     flex: 4;
     background-color: rgb(232, 235, 83);
     margin: -2.5em -1em -1em -1em;
@@ -148,3 +148,76 @@ footer {
 .personal-title{
     dislay: flex;
 }
+
+/* css for Extras page */
+.nav-highlight {
+    background-color: #7198AA;
+}
+.townhall {
+    display: flex;
+    align-items: center;
+    left: 4em;
+    padding: 1em .5em 1em .5em;
+    filter:drop-shadow(10px 7px 4px #2020204f);
+    padding-bottom: 4em;
+    border-bottom: 2px solid #655741;
+}
+
+.townhall p {
+    font-size: small;
+    background-color: rgba(255, 248, 220, 0.90);
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 12em;
+    left: 22em;
+    z-index: 1;
+    padding: 1em .5em 1em .5em;
+    filter:drop-shadow(10px 7px 4px #2020204f)
+}
+
+#full-page {
+    background-color: #5b7c73;
+   
+}
+
+.resources {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4em;
+    border-bottom: 2px solid #655741;
+    filter:drop-shadow(10px 7px 4px #2020204f);
+}
+
+.houseparty {
+    display: flex;
+    align-items: right;
+    left: 4em;
+    padding: 1em .5em 1em .5em;
+    filter:drop-shadow(10px 7px 4px #2020204f);
+    padding-bottom: 4em;
+    border-bottom: 2px solid #655741;
+}
+
+.houseparty p {
+    font-size: small;
+    background-color: rgba(255, 248, 220, 0.90);
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 12em;
+    left: 22em;
+    z-index: 1;
+    padding: 1em .5em 1em .5em;
+    filter:drop-shadow(10px 7px 4px #2020204f)
+}
+
+.get-the-shaggs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
