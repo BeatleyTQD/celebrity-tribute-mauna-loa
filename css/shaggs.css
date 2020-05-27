@@ -93,7 +93,8 @@ aside {
     justify-content: center;
 }
 
-main {
+
+#newsfeed {
     flex: 4;
     background-color: rgb(232, 235, 83);
     margin: -2.5em -1em -1em -1em;
@@ -139,12 +140,41 @@ main h2{
 #news-item p{
     line-height: 1.5em;
 }
+
 footer {
     display: flex;
     justify-content: center;
     background-color: chartreuse;
 }
 
+.centeredH2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.centeredP {
+    text-align: center;
+}
+
+.albumsFlex {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.album {
+    width: 30%;
+    height: auto;
+}
+
+.careerFlex {  
+    display: flex;
+}
+
+.careerBottom {
+    display:flex;
+    justify-content: center;
+}
 .personal-title{
-    dislay: flex;
+    display: flex;
 }
