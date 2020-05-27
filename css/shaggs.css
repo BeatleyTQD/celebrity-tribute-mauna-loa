@@ -35,12 +35,12 @@ footer {
     background-color: chartreuse;
 }
 
-h2 {
+.centeredH2 {
     text-align: center;
     text-decoration: underline;
 }
 
-p {
+.centeredP {
     text-align: center;
 }
 
