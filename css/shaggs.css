@@ -216,6 +216,72 @@ aside {
     margin: 10px;
 }
 
+<<<<<<< HEAD
+#personal {
+    background-color: #5B7C73;
+}
+
+.personal-life-header {
+    display: flex;
+    justify-content: center;
+    font-size: 5em;
+    color: #655741
+}
+
+.family-header {
+    display: flex;
+    justify-content: center;
+    font-size: 5em;
+    color: #655741
+}
+
+.member-photos {
+    display: flex;
+    justify-content: center;
+}
+
+.original-member-photo {
+    display: flex;
+    justify-content: center;
+    transform: rotate(-7deg);
+    border:5px solid #655741
+}
+
+.current-member-photo {
+    display: flex;
+    transform: rotate(7deg);
+    height: 250px;
+    border:5px solid #655741;
+}
+
+.members-list {
+    display: flex;
+    justify-content: left;
+    padding: 30px 20px;
+}
+
+.single-member-info {
+    padding: 20px;
+}
+
+.family-info {
+    display: flex;
+    justify-content: center;
+    padding: 50px 325px;
+}
+
+.family-photo {
+    display: flex;
+    border: 5px solid #655741;
+    transform: rotate(-7deg);
+}
+
+.parent-info {
+    display: flex;
+    padding: 20px;
+}
+
+=======
 .personal-title{
     display: flex;
 }
@@ -402,3 +468,4 @@ footer {
 }
 
 /* end of Extras specific css */
+>>>>>>> master
