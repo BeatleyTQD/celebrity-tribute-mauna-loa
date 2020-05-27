@@ -8,6 +8,9 @@ html {
     padding-top: 2.5em;
 }
 #sh-title {
+    font-family: 'Spicy Rice', cursive;
+    font-weight: lighter;
+    text-transform: uppercase;
     text-align: center;
     color: #faef5b;
     font-size: 5em;
