@@ -93,7 +93,6 @@ aside {
     justify-content: center;
 }
 
-
 #newsfeed {
     flex: 4;
     background-color: rgb(232, 235, 83);
@@ -177,4 +176,111 @@ footer {
 }
 .personal-title{
     display: flex;
+}
+
+/* css for Extras page */
+.nav-highlight {
+    background-color: #7198AA;
+}
+.townhall {
+    display: flex;
+    align-items: center;
+    left: 4em;
+    padding: 1em .5em 1em .5em;
+    filter:drop-shadow(10px 7px 4px #2020204f);
+    padding-bottom: 4em;
+    padding-left: 4em;
+    border-bottom: 2px solid #655741;
+}
+
+.townhall p {
+    font-size: small;
+    background-color: rgba(255, 248, 220, 0.90);
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 12em;
+    left: 24em;
+    z-index: 1;
+    padding: 1em .5em 1em .5em;
+    filter:drop-shadow(10px 7px 4px #2020204f)
+}
+
+#full-page {
+    background-color: #5b7c73;
+   
+}
+.banner {
+    text-align: center;
+    font-size: 2em;
+}
+
+.resources {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2em;
+    border-bottom: 2px solid #655741;
+    filter:drop-shadow(10px 7px 4px #2020204f);
+}
+
+.houseparty {
+    display: flex;
+    align-items: right;
+    left: 4em;
+    padding: 3em .5em 1em .5em;
+    filter:drop-shadow(10px 7px 4px #2020204f);
+    padding: 5em 0 2em 4em;
+    border-bottom: 2px solid #655741;
+}
+
+.houseparty p {
+    font-size: small;
+    background-color: rgba(255, 248, 220, 0.90);
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 18em;
+    left: 26em;
+    z-index: 1;
+    padding: 1em .5em 1em .5em;
+    filter:drop-shadow(10px 7px 4px #2020204f)
+}
+
+.get-the-shaggs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    filter:drop-shadow(10px 7px 4px #2020204f);
+    padding: 2em 0 2em 4em;
+    border-bottom: 2px solid #655741;
+
+}
+
+.dont-push {
+    display: flex;
+    top: -.2em;
+    position: absolute;
+    padding-left: 35em;
+}
+
+.dont-push .arrow{
+    padding-top: 3em;
+
+}
+
+.dont-push p {
+    text-align: right;
+    font-size: small;
+    background-color: rgba(255, 248, 220, 0.90);
+    width: 15%;
+    height: auto;
+    position: absolute;
+    top: 6em;
+    left: 35em;
+    z-index: 1;
+    padding: .2em .5em .2em 0em;
+    filter:drop-shadow(10px 7px 4px #2020204f)
 }
