@@ -5,15 +5,15 @@ html {
 #logo {
     height: 10em;
     width: 10em;
-    padding-top: 2em;
+    padding-top: 2.5em;
 }
 #sh-title {
     text-align: center;
     color: #faef5b;
     font-size: 5em;
-    margin: -1.4em 0em 1em 8.7em;
+    margin: -1.6em 0em 1em -0.7em;
     overflow: hidden;
-    width: 6em;
+    /* width: 6em; */
     padding: .2em 0em .2em 0em;
 }
 
@@ -159,12 +159,13 @@ aside {
 /* CSS for career page */
 .career {
     background-color: #5B7C73;
-    margin: -2.5em 0em -1em 0em;
-
+    margin: -2.5em 0em 0em 0em;
 }
 .centeredH2 {
     text-align: center;
-    filter:drop-shadow(1px 1px 10px cornsilk)
+    font-size: 3em;
+    padding: 1.25em;
+    filter:drop-shadow(1px 1px 10px cornsilk);
 }
 
 #intro {
@@ -199,11 +200,17 @@ aside {
     align-content: center;
 }
 
+.albumsFlex a {
+    display: inline-block;
+    width: 60%;
+    height: auto; 
+    padding: .5em 1em .5em 1em;
+} 
+
 .album {
-    width: 30%;
-    height: auto;
-    padding: 1em .5em 3em .5em;
-    filter:drop-shadow(10px 7px 4px #2020204f)
+    width: 100%;
+    height: auto; 
+    filter:drop-shadow(10px 7px 4px #2020204f);
 }
 
 .careerFlex {  
@@ -212,7 +219,6 @@ aside {
 
 .careerBottom {
     display:flex;
-    /* background-color: cornsilk; */
     margin: 10px;
 }
 
