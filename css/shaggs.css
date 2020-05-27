@@ -5,19 +5,26 @@ html {
 #logo {
     height: 10em;
     width: 10em;
+    padding-top: 2em;
 }
-h1 {
+#sh-title {
     text-align: center;
+    color: #faef5b;
     font-size: 5em;
-    margin: -1.4em 0em 0em 0em;
+    margin: -1.4em 0em 1em 8.7em;
+    overflow: hidden;
+    width: 6em;
+    padding: .2em 0em .2em 0em;
 }
+
 
 .navbar{
     display: flex;
     justify-content: space-around;
     font-size: 2em;
-    margin: 2em 0em 0em 0em;
-    background-color: yellow;
+    margin: 0em -.5em 0em -.25em;
+    padding: .2em 0em .4em 0em;
+    background-color: #faef5b;
     
 }
 .navbar a {
@@ -65,7 +72,7 @@ h1 {
     display: flex;
     width: 100%;
     max-height: 300x;
-    background-color: yellow;
+    background-color: rgb(232, 235, 83);;
     width: 300px;
     height: 231px;
     margin-left: auto;
@@ -80,8 +87,10 @@ aside {
     
 }
 
-a:hover {
-    color: grey;
+
+.navbar a:hover {
+    color: rgb(232, 235, 83);
+    opacity: 80%;
 }
 
 #news-container {
@@ -92,17 +101,24 @@ a:hover {
     justify-content: center;
 }
 
-
 #newsfeed {
     flex: 4;
-    background-color: rgb(232, 235, 83);
-    margin: -2.5em -1em -1em -1em;
+    background-color: #5b7c73;
+    margin: -2.9em -1em 0em -1em;
+    
 }
 
-main h2{
+#ntitle {
     text-align: center;
-    font-size: 3em;
-    padding-top: 2em;
+    font-size: 3.5em;
+    width: 5em;
+    padding-top: .5em;
+    height: 1.6em;
+    position: relative;
+    top: 1em;
+    left: 14.6em;
+    background-color: cornsilk;
+    filter:drop-shadow(10px 7px 4px #2020204f)
 }
 
 #news-item {
@@ -140,19 +156,41 @@ main h2{
     line-height: 1.5em;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    background-color: chartreuse;
-}
+/* CSS for career page */
+.career {
+    background-color: #5B7C73;
+    margin: -2.5em 0em -1em 0em;
 
+}
 .centeredH2 {
     text-align: center;
-    text-decoration: underline;
+    filter:drop-shadow(1px 1px 10px cornsilk)
+}
+
+#intro {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 20px;
+    margin: 50px;
+    background-color: cornsilk;
+    filter:drop-shadow(5px 5px 2px #2020204f)
+}
+
+.centeredH3 {
+    text-align: center;
+    font-size: 1.5em;
+    background-color: cornsilk;
+    margin: 5px;
+    filter:drop-shadow(5px 5px 2px #2020204f)
 }
 
 .centeredP {
     text-align: center;
+    font-size: 1.25em;
+    padding: 20px;
+    margin: 5px;
+    background-color: cornsilk;
+    filter:drop-shadow(5px 5px 2px #2020204f)
 }
 
 .albumsFlex {
@@ -164,6 +202,8 @@ footer {
 .album {
     width: 30%;
     height: auto;
+    padding: 1em .5em 3em .5em;
+    filter:drop-shadow(10px 7px 4px #2020204f)
 }
 
 .careerFlex {  
@@ -172,9 +212,11 @@ footer {
 
 .careerBottom {
     display:flex;
-    justify-content: center;
+    /* background-color: cornsilk; */
+    margin: 10px;
 }
 
+<<<<<<< HEAD
 #personal {
     background-color: #5B7C73;
 }
@@ -239,3 +281,191 @@ footer {
     padding: 20px;
 }
 
+=======
+.personal-title{
+    display: flex;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(42, 43, 44);
+    flex-direction: space-between;
+    margin: 0em -1em -5em -1em;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 12px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border: solid;
+    border-color: cornsilk;
+    border-width: 1px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin: 1em 12em 1em 1.5em;
+  }
+
+  footer h4 {
+      color: cornsilk;
+      margin: 1.7em 1em 0em 3em;
+      font-size: 1.2em;
+  }
+
+  footer #copy {
+      color: rgba(182, 182, 182, 0.767);
+      font-size: .9em;
+      margin: 3em -28em 0em 20em;
+  }
+/* css for Extras page */
+.nav-highlight {
+    background-color: #7198AA;
+}
+.townhall {
+    display: flex;
+    align-items: center;
+    left: 4em;
+    padding: 1em .5em 1em .5em;
+    filter:drop-shadow(10px 7px 4px #2020204f);
+    padding-bottom: 4em;
+    padding-left: 4em;
+    border-bottom: 2px solid #655741;
+}
+
+.townhall p {
+    font-size: small;
+    background-color: rgba(255, 248, 220, 0.90);
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 12em;
+    left: 26em;
+    z-index: 1;
+    padding: 1em .5em 1em .5em;
+    filter:drop-shadow(10px 7px 4px #2020204f)
+}
+
+#full-page {
+    background-color: #5b7c73;
+   
+}
+.banner {
+    text-align: center;
+    font-size: 2em;
+}
+
+.NYT {
+    text-align: center;
+    align-self: center;
+    width: 100%;
+}
+
+.resources {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 2em;
+    border-bottom: 2px solid #655741;
+    filter:drop-shadow(10px 7px 4px #2020204f);
+}
+
+.shaggPage {
+    font-size: small;
+    text-align: center;
+    background-color: rgba(255, 248, 220, 0.90);
+    width: 100%;
+    height: auto;
+    padding: .5em .5em .7em .5em;
+    filter:drop-shadow(10px 7px 4px #2020204f)
+}
+
+.shaggWiki {
+    font-size: small;
+    text-align: center;
+    background-color: rgba(255, 248, 220, 0.90);
+    width: 100%;
+    height: auto;
+    padding: .5em .5em .7em .5em;
+    filter:drop-shadow(10px 7px 4px #2020204f)
+}
+.houseparty {
+    display: flex;
+    align-items: right;
+    left: 4em;
+    padding: 3em .5em 1em .5em;
+    filter:drop-shadow(10px 7px 4px #2020204f);
+    padding: 5em 0 2em 4em;
+    border-bottom: 2px solid #655741;
+}
+
+.houseparty p {
+    font-size: small;
+    background-color: rgba(255, 248, 220, 0.90);
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 18em;
+    left: 26em;
+    z-index: 1;
+    padding: 1em .5em 1em .5em;
+    filter:drop-shadow(10px 7px 4px #2020204f)
+}
+
+.get-the-shaggs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    filter:drop-shadow(10px 7px 4px #2020204f);
+    padding: 2em 0 2em 4em;
+    border-bottom: 2px solid #655741;
+
+}
+
+.dont-push {
+    display: flex;
+    top: .5em;
+    position: absolute;
+    padding-left: 35em;
+}
+
+.dont-push .arrow{
+    padding-top: 3em;
+
+}
+
+.dont-push p {
+    text-align: center;
+    font-size: small;
+    background-color: rgba(255, 248, 220, 0.90);
+    width: 15%;
+    height: auto;
+    position: absolute;
+    top: 6em;
+    left: 35em;
+    z-index: 1;
+    padding: .2em .5em .2em .2em;
+    filter:drop-shadow(10px 7px 4px #2020204f)
+}
+
+.store-text {
+    text-align: center;
+}
+
+.banner-top {
+    background-image: url(Shaggs-banner-pic.png);
+}
+
+/* end of Extras specific css */
+>>>>>>> master
