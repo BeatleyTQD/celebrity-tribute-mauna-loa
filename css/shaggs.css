@@ -80,7 +80,8 @@ aside {
     
 }
 
-a:hover {
+
+.navbar a:hover {
     color: grey;
 }
 
@@ -175,5 +176,5 @@ footer {
     justify-content: center;
 }
 .personal-title{
-    dislay: flex;
+    display: flex;
 }
