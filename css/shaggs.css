@@ -4,8 +4,8 @@ html {
 }
 #logo {
     height: 10em;
-    /* width: 10em; */
     padding-top: 2.5em;
+    margin-left: 2vw;
 }
 #sh-title {
     font-family: 'Spicy Rice', cursive;
@@ -16,18 +16,22 @@ html {
     font-size: 5em;
     margin: -1.6em 0em 1em -0.7em;
     overflow: hidden;
-    /* width: 6em; */
     padding: .2em 0em .2em 0em;
 }
 
-
+#wrapper1 {
+    width: 100%;
+    height: auto;
+    margin-bottom: -.5em;
+}
 .navbar{
     display: flex;
     justify-content: space-around;
-    font-size: 2em;
-    margin: 0em -.5em 0em -.25em;
+    font-size: 2vw;
+    margin: 0em -.23em 0em -.25em;
     padding: .2em 0em .4em 0em;
     background-color: #faef5b;
+    font-family: 'Spicy Rice', cursive;
     
 }
 .navbar a {
@@ -84,14 +88,13 @@ html {
 }
 
 .navbar a:hover {
-    color: rgb(232, 235, 83);
+    color: #5b7c73;
     opacity: 80%;
 }
 
 #news-container {
     display: flex;
     flex-direction: column;
-    width: 100%;
     align-content: center;
     justify-content: center;
 }
@@ -99,55 +102,91 @@ html {
 #newsfeed {
     flex: 4;
     background-color: #5b7c73;
-    margin: -2.9em -1em 0em -1em;
+    margin: -2.9em 0em 0em -1em;
     
 }
 
 #ntitle {
     text-align: center;
-    font-size: 3.5em;
-    width: 5em;
-    padding-top: .5em;
-    height: 1.6em;
-    position: relative;
-    top: 1em;
-    left: 14.6em;
+    font-size: 4em;
+    margin-top: .7em;
     background-color: cornsilk;
-    filter:drop-shadow(10px 7px 4px #2020204f)
+    width: auto;
+    padding: .5em .5em .5em .5em;
 }
 
-#news-item {
+.news-item {
     flex: 1;
-    margin: 5em;
     text-align: center;
     position: relative;
+    margin: 4em 0em;
+    width: auto;
+    height: auto;
+
 }
 
-#news-item img {
+.news-item img {
     width: 40%;
     height: auto;
-    filter:drop-shadow(10px 7px 4px #2020204f)
-}
-
-#news-item #nw2 {
-    margin: -4em 0em;
+    filter:drop-shadow(10px 7px 4px #2020204f);
 }
 
 
-#news-item p {
+ .news-item #p1 {
     background-color: cornsilk;
     width: 15%;
-    height: auto;
+    height: 20%;
     align-self: center;
     position: absolute;
-    top: 5em;
-    left: 22em;
-    z-index: 1;
+    left: 20%;
+    bottom: 45%;
     padding: 1em .5em 1em .5em;
-    filter:drop-shadow(10px 7px 4px #2020204f)
-    
+    filter:drop-shadow(10px 7px 4px #2020204f);
+    overflow: hidden;
+    font-size: .9vw;
 }
-#news-item p{
+
+.news-item #p2 {
+    background-color: cornsilk;
+    width: 15%;
+    height: 15%;
+    align-self: center;
+    position: absolute;
+    left: 20%;
+    bottom: 45%;
+    padding: 1em .5em 1.2em .5em;
+    filter:drop-shadow(10px 7px 4px #2020204f);
+    overflow: hidden;
+    font-size: .9vw;
+}
+
+.news-item #p3 {
+    background-color: cornsilk;
+    width: 15%;
+    height: 40%;
+    align-self: center;
+    position: absolute;
+    left: 20%;
+    bottom: 45%;
+    padding: 1em .5em 1em .5em;
+    filter:drop-shadow(10px 7px 4px #2020204f);
+    overflow: hidden;
+    font-size: .9vw;
+}
+.news-item #p4 {
+    background-color: cornsilk;
+    width: 15%;
+    height: 22%;
+    align-self: center;
+    position: absolute;
+    left: 20%;
+    bottom: 45%;
+    padding: 1em .5em 1.4em .5em;
+    filter:drop-shadow(10px 7px 4px #2020204f);
+    overflow: hidden;
+    font-size: .9vw;
+}
+.news-item p{
     line-height: 1.5em;
 }
 
@@ -230,6 +269,14 @@ html {
     text-shadow: rgba(255,255,255,.2) 3px 2px 3px;
 }
 
+.personal-life {
+    filter:drop-shadow(1px 1px 10px cornsilk);
+}
+
+.family-title {
+    filter:drop-shadow(1px 1px 10px cornsilk);
+}
+
 .family-header {
     display: flex;
     justify-content: center;
@@ -237,7 +284,8 @@ html {
     color: #000000;
     background-color: #5b7c73;
     text-shadow: rgba(255,255,255,.2) 3px 2px 3px;
-    padding: 30px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    
 }
 
 .member-photos {
@@ -250,7 +298,8 @@ html {
     display: flex;
     justify-content: center;
     transform: rotate(-7deg);
-    border:5px solid #fff8dc
+    border:5px solid #fff8dc;
+    box-shadow: 0 0 5px #000000;
 }
 
 .current-member-photo {
@@ -258,11 +307,13 @@ html {
     transform: rotate(7deg);
     height: 250px;
     border:5px solid #fff8dc;
+    box-shadow: 0 0 5px #000000;
 }
 
 .members-list {
 	display: flex;
     width: 100%;
+    padding-top: 30px;
 }
 
 .single-info {
@@ -271,7 +322,8 @@ html {
     margin: 1em;
     padding: 6px;	
     text-align: center;
-    border: 3px solid #7198aa
+    border: 3px solid #7198aa;
+    box-shadow: 0 0 5px #fff8dc;
 }
 
 .member-name {
@@ -282,7 +334,6 @@ html {
 .family-info {
     display: flex;
     justify-content: center;
-    margin: 30px;
     padding: 30px;
     width: auto;
 }
@@ -292,6 +343,7 @@ html {
     justify-content: center;
     transform: rotate(-7deg);
     border: 5px solid #fff8dc;
+    box-shadow: 0 0 5px #000000;
 }
 
 .detailed-family {
@@ -302,6 +354,7 @@ html {
     width: 300px;
     height: 200px;
     padding: 10px;
+    box-shadow: 0 0 5px #fff8dc;
 }
 
 .father-name {
@@ -318,13 +371,19 @@ footer {
     justify-content: center;
     background-color: rgb(42, 43, 44);
     flex-direction: space-between;
-    margin: 0em -1em -5em -1em;
+    padding-right: 1em;
+    margin-left: -1em;
+    width: 100%;
+    height: 1%;
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 12px;
+    padding: 1.2vw;
+    width: 1vw;
+    height: 1vw;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 1.6vw;
+    line-height: 1.4vw;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
@@ -340,24 +399,34 @@ footer {
   .fa-facebook {
     background: #3B5998;
     color: white;
-    margin: 1em 12em 1em 1.5em;
+    margin: 1.4vw 0vw 1.6vw 0vw;
   }
 
   footer h4 {
       color: cornsilk;
-      margin: 1.7em 1em 0em 3em;
-      font-size: 1.2em;
+      font-size: 1.4vw;
+      padding: .5vw 2% .1vw 7%;
   }
 
   footer #copy {
       color: rgba(182, 182, 182, 0.767);
-      font-size: .9em;
-      margin: 3em -28em 0em 20em;
+      font-size: 1.0vw;
+      margin-top: 3.5vw;
+      padding-left: 24vw;
+     
   }
+
+  #footer-margin {
+      padding-left: 28%;
+  }
+
+  a strong {
+      padding-bottom: 1vw;
+  }
+
 /* css for Extras page */
 .nav-highlight {
-    background-color: #7198AA;
-    padding: 0 .2em 0 .2em;
+    filter:drop-shadow(1px 1px 12px #014764);
 
 }
 
@@ -522,6 +591,9 @@ footer {
 }
 
 .banner-top {
+    width:100%;
+    margin: -.5em 0em 0em -.5em;
+    padding-right: .35em;
     background-image: url(../images/Shaggs-banner-pic.png);
 }
 
