@@ -4,7 +4,7 @@ html {
 }
 #logo {
     height: 10em;
-    width: 10em;
+    /* width: 10em; */
     padding-top: 2.5em;
 }
 #sh-title {
@@ -203,6 +203,7 @@ aside {
     align-content: center;
 }
 
+/* Be careful when adjusting the sizes of both the anchor and album class, the sizes relate to each other and chaos is imminent */
 .albumsFlex a {
     display: inline-block;
     width: 60%;
@@ -218,7 +219,7 @@ aside {
 }
 
 .album:hover {
-    transform: scale(1.015);
+    transform: scale(1.02);
 }
 .careerFlex {  
     display: flex;
@@ -236,61 +237,89 @@ aside {
 .personal-life-header {
     display: flex;
     justify-content: center;
-    font-size: 5em;
-    color: #655741
+    font-size: 3em;
+    color: #000000;
+    background-color: #5b7c73;
+    text-shadow: rgba(255,255,255,.2) 3px 2px 3px;
 }
 
 .family-header {
     display: flex;
     justify-content: center;
-    font-size: 5em;
-    color: #655741
+    font-size: 3em;
+    color: #000000;
+    background-color: #5b7c73;
+    text-shadow: rgba(255,255,255,.2) 3px 2px 3px;
+    padding: 30px 0px 0px 0px;
 }
 
 .member-photos {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .original-member-photo {
     display: flex;
     justify-content: center;
     transform: rotate(-7deg);
-    border:5px solid #655741
+    border:5px solid #fff8dc
 }
 
 .current-member-photo {
     display: flex;
     transform: rotate(7deg);
     height: 250px;
-    border:5px solid #655741;
+    border:5px solid #fff8dc;
 }
 
 .members-list {
-    display: flex;
-    justify-content: left;
-    padding: 30px 20px;
+	display: flex;
+    width: 100%;
 }
 
-.single-member-info {
-    padding: 20px;
+.single-info {
+    background-color: #fff8dc;
+	flex: 1;
+    margin: 1em;
+    padding: 6px;	
+    text-align: center;
+    border: 3px solid #7198aa
+}
+
+.member-name {
+    font-size: 20px;
+    color: #7198aa;
 }
 
 .family-info {
     display: flex;
     justify-content: center;
-    padding: 50px 325px;
+    margin: 30px;
+    padding: 30px;
+    width: auto;
 }
 
-.family-photo {
+.parent-image {
     display: flex;
-    border: 5px solid #655741;
+    justify-content: center;
     transform: rotate(-7deg);
+    border: 5px solid #fff8dc;
 }
 
-.parent-info {
-    display: flex;
-    padding: 20px;
+.detailed-family {
+    background-color: #fff8dc;	
+    text-align: center;
+    border: 3px solid #7198aa;
+    transform: rotate(7deg);
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
+
+.father-name {
+    font-size: 20px;
+    color: #7198aa;
 }
 
 .personal-title{
@@ -341,7 +370,17 @@ footer {
 /* css for Extras page */
 .nav-highlight {
     background-color: #7198AA;
+    padding: 0 .2em 0 .2em;
+
 }
+
+.townhall-banner {
+    font-size: 2em;
+    position: absolute;
+    left: 13em;
+    padding-top: 1.5em;
+}
+
 .townhall {
     display: flex;
     align-items: center;
@@ -351,6 +390,7 @@ footer {
     padding-bottom: 4em;
     padding-left: 4em;
     border-bottom: 2px solid #655741;
+    border-top: 2px solid #655741;
 }
 
 .townhall p {
@@ -362,7 +402,7 @@ footer {
     top: 12em;
     left: 26em;
     z-index: 1;
-    padding: 1em .5em 1em .5em;
+    padding: 1em .5em 1em 1em;
     filter:drop-shadow(10px 7px 4px #2020204f)
 }
 
@@ -410,11 +450,13 @@ footer {
     padding: .5em .5em .7em .5em;
     filter:drop-shadow(10px 7px 4px #2020204f)
 }
+
+.practice {
+    font-size: 2em;
+    position: absolute;
+    left: 1.8em;
+}
 .houseparty {
-    display: flex;
-    align-items: right;
-    left: 4em;
-    padding: 3em .5em 1em .5em;
     filter:drop-shadow(10px 7px 4px #2020204f);
     padding: 5em 0 2em 4em;
     border-bottom: 2px solid #655741;
@@ -428,8 +470,7 @@ footer {
     position: absolute;
     top: 18em;
     left: 26em;
-    z-index: 1;
-    padding: 1em .5em 1em .5em;
+    padding: 1em .5em 1em 1em;
     filter:drop-shadow(10px 7px 4px #2020204f)
 }
 
@@ -439,7 +480,7 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     filter:drop-shadow(10px 7px 4px #2020204f);
-    padding: 2em 0 2em 4em;
+    padding: 2em 0 2em 2em;
     border-bottom: 2px solid #655741;
 
 }
@@ -448,7 +489,7 @@ footer {
     display: flex;
     top: .5em;
     position: absolute;
-    padding-left: 35em;
+    padding-left: 31em;
 }
 
 .dont-push .arrow{
@@ -464,18 +505,35 @@ footer {
     height: auto;
     position: absolute;
     top: 6em;
-    left: 35em;
+    left: 32em;
     z-index: 1;
     padding: .2em .5em .2em .2em;
     filter:drop-shadow(10px 7px 4px #2020204f)
 }
+
+.hvr-grow-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+  }
+  .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0.5, 0.5, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 
 .store-text {
     text-align: center;
 }
 
 .banner-top {
-    background-image: url(Shaggs-banner-pic.png);
+    background-image: url(../images/Shaggs-banner-pic.png);
 }
 
 /* end of Extras specific css */
