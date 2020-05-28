@@ -232,61 +232,89 @@ aside {
 .personal-life-header {
     display: flex;
     justify-content: center;
-    font-size: 5em;
-    color: #655741
+    font-size: 3em;
+    color: #000000;
+    background-color: #5b7c73;
+    text-shadow: rgba(255,255,255,.2) 3px 2px 3px;
 }
 
 .family-header {
     display: flex;
     justify-content: center;
-    font-size: 5em;
-    color: #655741
+    font-size: 3em;
+    color: #000000;
+    background-color: #5b7c73;
+    text-shadow: rgba(255,255,255,.2) 3px 2px 3px;
+    padding: 30px 0px 0px 0px;
 }
 
 .member-photos {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .original-member-photo {
     display: flex;
     justify-content: center;
     transform: rotate(-7deg);
-    border:5px solid #655741
+    border:5px solid #fff8dc
 }
 
 .current-member-photo {
     display: flex;
     transform: rotate(7deg);
     height: 250px;
-    border:5px solid #655741;
+    border:5px solid #fff8dc;
 }
 
 .members-list {
-    display: flex;
-    justify-content: left;
-    padding: 30px 20px;
+	display: flex;
+    width: 100%;
 }
 
-.single-member-info {
-    padding: 20px;
+.single-info {
+    background-color: #fff8dc;
+	flex: 1;
+    margin: 1em;
+    padding: 6px;	
+    text-align: center;
+    border: 3px solid #7198aa
+}
+
+.member-name {
+    font-size: 20px;
+    color: #7198aa;
 }
 
 .family-info {
     display: flex;
     justify-content: center;
-    padding: 50px 325px;
+    margin: 30px;
+    padding: 30px;
+    width: auto;
 }
 
-.family-photo {
+.parent-image {
     display: flex;
-    border: 5px solid #655741;
+    justify-content: center;
     transform: rotate(-7deg);
+    border: 5px solid #fff8dc;
 }
 
-.parent-info {
-    display: flex;
-    padding: 20px;
+.detailed-family {
+    background-color: #fff8dc;	
+    text-align: center;
+    border: 3px solid #7198aa;
+    transform: rotate(7deg);
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
+
+.father-name {
+    font-size: 20px;
+    color: #7198aa;
 }
 
 .personal-title{
