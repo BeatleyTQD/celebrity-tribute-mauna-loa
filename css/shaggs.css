@@ -6,6 +6,7 @@ html {
     height: 10em;
     width: 10em;
     padding-top: 2.5em;
+    margin-left: 2vw;
 }
 #sh-title {
     font-family: 'Spicy Rice', cursive;
@@ -115,11 +116,11 @@ aside {
 
 #ntitle {
     text-align: center;
-    font-size: 3em;
-    margin-top: .98em;
+    font-size: 4em;
+    margin-top: .7em;
     background-color: cornsilk;
     width: auto;
-    padding: 1em .5em 1em .5em;
+    padding: .5em .5em .5em .5em;
 }
 
 #news-item {
@@ -343,10 +344,12 @@ footer {
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 12px;
-    height: 12px;
+    padding: 1.2vw;
+    width: 1vw;
+    height: 1vw;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 1.6vw;
+    line-height: 1.4vw;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
@@ -362,26 +365,29 @@ footer {
   .fa-facebook {
     background: #3B5998;
     color: white;
-    margin: 1em 0em;
-    
+    margin: 1.4vw 0vw 1.6vw 0vw;
   }
 
   footer h4 {
       color: cornsilk;
-      font-size: 1.2em;
-      padding: .5em 2% .5em 7%;
+      font-size: 1.4vw;
+      padding: .5vw 2% .1vw 7%;
   }
 
   footer #copy {
       color: rgba(182, 182, 182, 0.767);
-      font-size: .9em;
-      margin-top: 3em;
-      padding-left: 28%;
+      font-size: 1.0vw;
+      margin-top: 3.5vw;
+      padding-left: 20vw;
      
   }
 
   #footer-margin {
       padding-left: 28%;
+  }
+
+  a strong {
+      padding-bottom: 1vw;
   }
 
 /* css for Extras page */
