@@ -41,57 +41,7 @@ html {
 }
 
 .shagg-background {
-    background-color: gray;
-}
-
-.img-shaggs {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.flex-shaggs {
-    display: flex;
-    width: 100%;
-    max-height: 300x;
-    background-color: yellow;
-    width: 300px;
-    height: 231px;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-.flex-shaggs2 {
-    display: flex;
-    width: 100%;
-    max-height: 300x;
-    background-color: chartreuse;
-    width: 300px;
-    height: 231px;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-.flex-shaggs3 {
-
-    display: flex;
-    width: 100%;
-    max-height: 300x;
-    background-color: rgb(232, 235, 83);;
-    width: 300px;
-    height: 231px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-aside {
-    flex: 1;
-    margin: 1em;
-    max-height: 30em;
-    
+    background-color: #5b7c73;
 }
 
 /* creates a hover color change */
@@ -124,6 +74,13 @@ aside {
     padding: .5em .5em .5em .5em;
     font-family: 'Spicy Rice', cursive;
 
+}
+
+.img-shaggs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter:drop-shadow(10px 7px 4px #2020204f)
 }
 
 .news-item {
@@ -209,13 +166,13 @@ aside {
 .centeredH2 {
     text-align: center;
     font-size: 3em;
-    padding: 1.25em;
+    padding: 1.5em 1em 1em 1em;
     filter:drop-shadow(1px 1px 10px cornsilk);
 }
 
 #intro {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.6em;
     padding: 20px;
     margin: 50px;
     background-color: cornsilk;
@@ -245,6 +202,7 @@ aside {
     align-content: center;
 }
 
+/* Be careful when adjusting the sizes of both the anchor and album class, the sizes relate to each other and chaos is imminent */
 .albumsFlex a {
     display: inline-block;
     width: 60%;
@@ -255,9 +213,13 @@ aside {
 .album {
     width: 100%;
     height: auto; 
+    transition: transform .2s;
     filter:drop-shadow(10px 7px 4px #2020204f);
 }
 
+.album:hover {
+    transform: scale(1.02);
+}
 .careerFlex {  
     display: flex;
 }
