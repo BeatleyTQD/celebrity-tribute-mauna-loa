@@ -4,7 +4,7 @@ html {
 }
 #logo {
     height: 10em;
-    width: 10em;
+    /* width: 10em; */
     padding-top: 2.5em;
 }
 #sh-title {
@@ -340,6 +340,14 @@ footer {
     padding: 0 .2em 0 .2em;
 
 }
+
+.townhall-banner {
+    font-size: 2em;
+    position: absolute;
+    left: 13em;
+    padding-top: 1.5em;
+}
+
 .townhall {
     display: flex;
     align-items: center;
@@ -409,6 +417,12 @@ footer {
     padding: .5em .5em .7em .5em;
     filter:drop-shadow(10px 7px 4px #2020204f)
 }
+
+.practice {
+    font-size: 2em;
+    position: absolute;
+    left: 1.8em;
+}
 .houseparty {
     filter:drop-shadow(10px 7px 4px #2020204f);
     padding: 5em 0 2em 4em;
@@ -442,7 +456,7 @@ footer {
     display: flex;
     top: .5em;
     position: absolute;
-    padding-left: 35em;
+    padding-left: 31em;
 }
 
 .dont-push .arrow{
@@ -458,7 +472,7 @@ footer {
     height: auto;
     position: absolute;
     top: 6em;
-    left: 35em;
+    left: 32em;
     z-index: 1;
     padding: .2em .5em .2em .2em;
     filter:drop-shadow(10px 7px 4px #2020204f)
