@@ -1,5 +1,6 @@
 html {
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x:hidden;
     
 }
 #logo {
@@ -14,7 +15,7 @@ html {
     text-align: center;
     color: #faef5b;
     font-size: 5em;
-    margin: -1.6em 0em 1em -0.7em;
+    margin: -1.6em 0em 1em 0em;
     overflow: hidden;
     padding: .2em 0em .2em 0em;
 }
@@ -41,37 +42,8 @@ html {
 }
 
 .shagg-background {
-    background-color: #5b7c73
-}
-
-.img-shaggs {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.flex-shaggs {
-    display: flex;
-    width: 100%;
-    max-height: 300x;
-    background-color: yellow;
-    width: 300px;
-    height: 231px;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-.flex-shaggs2 {
-    display: flex;
-    width: 100%;
-    max-height: 300x;
-    background-color: chartreuse;
-    width: 300px;
-    height: 231px;
-    margin-left: auto;
-    margin-right: auto;
-    
+    background-color: #5b7c73;
+    margin-left: -1em;
 }
 
 .flex-shaggs3 {
@@ -124,7 +96,9 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    filter:drop-shadow(10px 7px 4px #2020204f)
+    filter:drop-shadow(10px 7px 4px #2020204f);
+    width: 60%;
+    height: auto;
 }
 
 .news-item {
@@ -138,9 +112,12 @@ html {
 }
 
 .news-item img {
-    width: 40%;
+    width: 50%;
     height: auto;
     filter:drop-shadow(10px 7px 4px #2020204f);
+    border:solid;
+    border-color: #faef5b;
+    border-width: 1vw;
 }
 
 
@@ -150,9 +127,9 @@ html {
     height: 20%;
     align-self: center;
     position: absolute;
-    left: 20%;
-    bottom: 45%;
-    padding: 1em .5em 1em .5em;
+    left: 17%;
+    bottom: 55%;
+    padding: 1em .5em 0em .5em;
     filter:drop-shadow(10px 7px 4px #2020204f);
     overflow: hidden;
     font-size: .9vw;
@@ -164,9 +141,9 @@ html {
     height: 15%;
     align-self: center;
     position: absolute;
-    left: 20%;
-    bottom: 45%;
-    padding: 1em .5em 1.2em .5em;
+    left: 17%;
+    bottom: 60%;
+    padding: 1em .5em 0em .5em;
     filter:drop-shadow(10px 7px 4px #2020204f);
     overflow: hidden;
     font-size: .9vw;
@@ -178,9 +155,9 @@ html {
     height: 40%;
     align-self: center;
     position: absolute;
-    left: 20%;
+    left: 17%;
     bottom: 45%;
-    padding: 1em .5em 1em .5em;
+    padding: 1.9em .5em 0em .5em;
     filter:drop-shadow(10px 7px 4px #2020204f);
     overflow: hidden;
     font-size: .9vw;
@@ -191,9 +168,9 @@ html {
     height: 22%;
     align-self: center;
     position: absolute;
-    left: 20%;
-    bottom: 45%;
-    padding: 1em .5em 1.4em .5em;
+    left: 17%;
+    bottom: 55%;
+    padding: 1em .5em 0em .5em;
     filter:drop-shadow(10px 7px 4px #2020204f);
     overflow: hidden;
     font-size: .9vw;
@@ -205,7 +182,7 @@ html {
 /* CSS for career page */
 .career {
     background-color: #5B7C73;
-    margin: -2.5em 0em 0em 0em;
+    margin: -2.5em 0em 0em -1em;
 }
 .centeredH2 {
     text-align: center;
@@ -275,6 +252,7 @@ html {
 
 #personal {
     background-color: #5B7C73;
+    margin-left: -1em;
 }
 
 .personal-life-header {
@@ -410,7 +388,7 @@ footer {
   }
 
   .fa:hover {
-    opacity: 0.7;
+    opacity: 0.8;
   }
 
   .fa-facebook {
@@ -418,7 +396,7 @@ footer {
     color: white;
     margin: 1.4vw 0vw 1.6vw 0vw;
   }
-
+  
   footer h4 {
       color: cornsilk;
       font-size: 1.4vw;
@@ -439,6 +417,7 @@ footer {
 
   a strong {
       padding-bottom: 1vw;
+
   }
 
 /* css for Extras page */
@@ -480,7 +459,7 @@ footer {
 
 #full-page {
     background-color: #5b7c73;
-   
+    margin-left: -1em;
 }
 .banner {
     text-align: center;
@@ -613,7 +592,7 @@ footer {
 .banner-top {
     width:100%;
     margin: -.5em 0em 0em -.5em;
-    padding-right: .35em;
+    padding-right: .5em;
     background-image: url(../images/Shaggs-banner-pic.png);
 }
 
