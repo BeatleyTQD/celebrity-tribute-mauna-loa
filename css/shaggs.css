@@ -41,7 +41,7 @@ html {
 }
 
 .shagg-background {
-    background-color: gray;
+    background-color: #5b7c73
 }
 
 .img-shaggs {
@@ -86,8 +86,7 @@ html {
     margin-right: auto;
 
 }
-    background-color: #5b7c73;
-}
+
 
 /* creates a hover color change */
 .navbar a:hover {
@@ -503,6 +502,10 @@ footer {
     padding-bottom: 2em;
     border-bottom: 2px solid #655741;
     filter:drop-shadow(10px 7px 4px #2020204f);
+}
+
+.dancecard {
+    padding-left: 2em;
 }
 
 .shaggPage {
