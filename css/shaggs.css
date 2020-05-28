@@ -18,7 +18,7 @@ html {
     overflow: hidden;
     padding: .2em 0em .2em 0em;
 }
-
+/* fixes margin issues and scaling issues between pages */
 #wrapper1 {
     width: 100%;
     height: auto;
@@ -44,12 +44,13 @@ html {
     background-color: #5b7c73;
 }
 
-
+/* creates a hover color change */
 .navbar a:hover {
     color: #5b7c73;
     opacity: 80%;
 }
-
+                /* Newsfeed page */
+/* creates a scalable newsfeed with standardized picture sizes */
 #news-container {
     display: flex;
     flex-direction: column;
@@ -71,6 +72,8 @@ html {
     background-color: cornsilk;
     width: auto;
     padding: .5em .5em .5em .5em;
+    font-family: 'Spicy Rice', cursive;
+
 }
 
 .img-shaggs {
@@ -335,7 +338,7 @@ html {
 .personal-title{
     display: flex;
 }
-
+/* scalable footer with fb buttons allowing for resizing  */
 footer {
     display: flex;
     justify-content: center;
