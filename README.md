@@ -1,3 +1,27 @@
+# The Shaggs Project
+
+This website was a collaborative project that was created to showcase The Shaggs, an an outsider music group from the late 60s and provide some background information into this obscure band.
+
+# The Website
+
+Upon visiting the website there is a header which displays the band, a footer with social media links for The Shaggs, a simplistic nav bar that makes navingating around the page a smooth experience. In the top right corner a logo for The Shaggs is displayed and upon click, will guide the user back home regardless of the page being visited. 
+
+A brief overview of The Shaggs and the members of the band is listed on the [Home] page. 
+
+The [Career] page contains information about The Shaggs's start, visual clickable ablums with external links for more information, and information on their collaborations
+
+The [Personal] page gives some indepth information about the women who make up the band, where they are now, and a brief tidbit about their father as well with rare pictures included as well. 
+
+The [Newsfeed] page provides the most current information that can be on The Shaggs with beautiful overlays and hoverable text boxes and nice images. 
+
+The [Extras] page contains online resources about The Shaggs with clear borders, separating pertinent information, hoverable icons that lead to links for more information about the band. 
+
+## Contributing 
+
+Pull requests are welcome, but please do not make any changes to the code. 
+
+
+Parameters for the assignment:
 # Nashville Software School Tribute Agency
 
 Welcome fans.
